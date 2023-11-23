@@ -1,0 +1,13 @@
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: var(--vert);
+}
+
+main * {
+    font-family: var(--font-family);
+}
+
+h1 {
+    font-family: var(--title-font);
+}
