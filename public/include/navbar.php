@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
@@ -22,7 +23,7 @@
                             <a href="/">Visite</a>
                         </li>
                         <li>
-                            <a href="/">Goodies</a>
+                            <a href="/goddies.php">Goddies</a>
                         </li>
                         <li>
                             <a href="/">Vos listes de voeux</a>
@@ -40,7 +41,7 @@
                                         <a href="/">Visite</a>
                                     </li>
                                     <li>
-                                        <a href="/">Goodies</a>
+                                        <a href="/goddies.php">Goddies</a>
                                     </li>
                                     <li>
                                         <a href="/">Vos listes de voeux</a>

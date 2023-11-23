@@ -25,7 +25,7 @@ footer li {
     align-items: center; /* Centre les éléments verticalement */
 }
 footer a, footer p{
-    color: var(--light);
+    color: var(--blanc);
     text-decoration: none;
 }
 footer p {
