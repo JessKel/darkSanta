@@ -46,3 +46,8 @@ ul {
     color: white;
     filter: grayscale(40%);
 }
+
+.swiper-img-lw {
+    border-radius: 15px;
+    max-height: 400px;
+}
