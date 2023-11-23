@@ -1,5 +1,5 @@
 nav .uk-container {
-    background-color: var(--background-color1);
+    background-color: var(--rouge);
     padding: 1rem;
     width: 100%;
     max-width: 100%;
@@ -15,18 +15,18 @@ nav .uk-container {
     height: 20%;
 }
 .uk-navbar-nav.my-nav>li>a {
-    color: var(--light);
+    color: var(--blanc);
 }
 a.uk-navbar-toggle.uk-navbar-toggle-animate.uk-icon.uk-navbar-toggle-icon {
-    color: white;
+    color: var(--blanc);
 }
 .uk-navbar-dropdown li a {
-    color: var(--light);
+    color: var(--blanc);
 }
 .uk-navbar-toggle {
     display: none;  /* Affiche le bouton du menu burger */
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 796px) {
     .uk-navbar-toggle {
         display: flex;  /* Affiche le bouton du menu burger */
     }
