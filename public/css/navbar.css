@@ -1,18 +1,17 @@
 nav .uk-container {
     background-color: var(--rouge);
     padding: 1rem;
-    width: 100%;
     max-width: 100%;
 }
 .uk-navbar {
    padding-right: 3rem;
 }
 .uk-navbar-left{
-   width: fit-content;
+   width: 200px;
 }
 .img-logo {
-    width: 20%;
-    height: 20%;
+    width: 50%;
+    height: 50%;
 }
 .uk-navbar-nav.my-nav>li>a {
     color: var(--blanc);
@@ -21,14 +20,18 @@ a.uk-navbar-toggle.uk-navbar-toggle-animate.uk-icon.uk-navbar-toggle-icon {
     color: var(--blanc);
 }
 .uk-navbar-dropdown li a {
-    color: var(--blanc);
+    color: var(--noir);
 }
 .uk-navbar-toggle {
     display: none;  /* Affiche le bouton du menu burger */
 }
-@media screen and (max-width: 796px) {
+@media screen and (max-width: 950px) {
     .uk-navbar-toggle {
         display: flex;  /* Affiche le bouton du menu burger */
+    }
+    .img-logo {
+        width: 30%;
+        height: 30%;
     }
 }
 
