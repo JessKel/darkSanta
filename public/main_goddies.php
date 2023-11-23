@@ -8,7 +8,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.5/dist/css/uikit.min.css">
         <link rel="stylesheet" href="/css/style.css"/>
     </head>
-    <body>
     <main class="uk-container uk-margin-medium-top uk-container main_goddies">
         <section class="uk-text-center">
             <h1 class="uk-heading-small uk-text-center h1-goddies"><span class="title-goddies">Les goddies du Père Noël</span></h1>
@@ -133,8 +132,6 @@
             </div>
         </div>
     </br>
-    
-
-
     </main>
+    <script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
 </body>
