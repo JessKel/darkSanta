@@ -33,7 +33,7 @@
                         </div>
                     </li>
                     <li>
-                        <img src="https://images-ext-2.discordapp.net/external/9nWIKc_CS-908zDk2hpInkn95wVio6F4zqSBa7B_PcE/https/i.gifer.com/6H3K.gif"
+                        <img src="https://media.discordapp.net/attachments/1177181621129064488/1177256468534284328/swaglapine_santa_claus_having_fun_at_the_beach_a34f58ac-c9de-48d6-8d5f-08dead95cd3d_ins.png?ex=6571d886&is=655f6386&hm=5b190782eb3495d33eb1a6b7f87f863e32f440a3087e7f0f314b72adadc61e65&=&format=webp&width=676&height=676"
                         width="400" height="600" alt="">
                         <div class="uk-position-center uk-panel">
                         </div>
@@ -110,6 +110,14 @@
         <img src="https://images-ext-1.discordapp.net/external/S1ehq-jKSMuefOmqfC1xjAE2rKpbYwmgQHT0RD516yg/https/i.gifer.com/EQFA.gif"
             width="25%" height="auto" alt="">
     </div>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("dark-mode");
+}
+</script>
+
 </body>
 
 </html>

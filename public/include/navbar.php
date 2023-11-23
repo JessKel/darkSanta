@@ -17,6 +17,10 @@
                 <div class="uk-navbar-left">
                     <a class="uk-navbar-item uk-logo" href="/acceuil.php" aria-label="darkSanta"><img class="img-logo" src="/images/darkSantalogo.png"></a>
                 </div>
+                <label class="switch">
+    <input type="checkbox">
+    <span class="slider" onclick="myFunction()"></span>
+</label>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav my-nav uk-visible@m">
                     <li>
