@@ -117,7 +117,7 @@ function myFunction() {
    element.classList.toggle("dark-mode");
 }
 </script>
-
+<script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
 </body>
 
 </html>
