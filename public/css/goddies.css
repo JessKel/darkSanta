@@ -8,10 +8,14 @@
     font-size: 5rem;
     text-align: center;
 }
+.goddies-uk-child{
+    align-items: center;
+}
 .goddies-card {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding-left:0;
+    margin-left: 0;
 }
 .goddies-card-default{
     background-color: var(--blanc);
@@ -55,17 +59,31 @@
     margin-top:0;
     margin:0;
 }
-@media screen and (min-width: 768px) and (max-width: 992px){
-    .goddies-card{
-        grid-template-columns: 1fr 1fr;
+.goddies-gift-card{
+    margin-bottom: 8rem;
+    border-radius: .5rem;
+    padding-left:0;
+}
+.gift-img {
+    border-top-left-radius:0.5rem;
+    border-bottom-left-radius: 0.5rem;
+}
+.gift-card-title {
+    color: var(--vert);
+    font-weight: bold;
+    animation: colorblink 2s infinite;
+}
+@keyframes colorblink {
+    0% {}
+    25% {
+        color: var(--vert);
     }
-    .goddies-card-default{
-        grid-template-columns: 1fr;
-        width: auto;
+    50% {
+        color: var(--rouge);
     }
 }
 @media screen and (max-width: 768px){
-    div.uk-card.actu-cards {
+    div.uk-card.goddies-card {
         grid-template-columns: 1fr;
         width: fit-content;
         margin: auto;
@@ -81,5 +99,18 @@
         padding:0rem;
         padding-left:1rem;
         padding-bottom:0.5rem;
+    }
+    .goddies-card-title {
+        padding-top:0rem;
+        line-height:0.8;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 992px){
+    div.uk-card.goddies-card {
+        grid-template-columns: 1fr 1fr;
+    }
+    .goddies-card-default{
+        grid-template-columns: 1fr;
+        width: auto;
     }
 }
