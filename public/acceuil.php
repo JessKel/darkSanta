@@ -4,13 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="acceuil.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/css/uikit.min.css" />
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/uikit@3.17.11/dist/js/uikit-icons.min.js"></script>
     <title>Acceuil</title>
 </head>
-
+<?php
+include __DIR__ . '/include/navbar.php';
+?>
 <body>
     <h1>Le Père Noel comme vous ne l'avez jamais vu!
     </h1>
@@ -121,6 +123,9 @@
         <img src="https://images-ext-1.discordapp.net/external/S1ehq-jKSMuefOmqfC1xjAE2rKpbYwmgQHT0RD516yg/https/i.gifer.com/EQFA.gif"
             width="600" height="600" alt="">
     </div>
+    <?php
+include __DIR__ . '/include/footer.php';
+?>
 </body>
 
 </html>

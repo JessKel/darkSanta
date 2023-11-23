@@ -4,31 +4,40 @@ nav .uk-container {
     width: 100%;
     max-width: 100%;
 }
+
 .uk-navbar {
-   padding-right: 3rem;
+    padding-right: 3rem;
 }
-.uk-navbar-left{
-   width: fit-content;
+
+.uk-navbar-left {
+    width: fit-content;
 }
+
 .img-logo {
     width: 20%;
     height: 20%;
 }
+
 .uk-navbar-nav.my-nav>li>a {
     color: var(--blanc);
 }
+
 a.uk-navbar-toggle.uk-navbar-toggle-animate.uk-icon.uk-navbar-toggle-icon {
     color: var(--blanc);
 }
+
 .uk-navbar-dropdown li a {
     color: var(--blanc);
 }
+
 .uk-navbar-toggle {
-    display: none;  /* Affiche le bouton du menu burger */
-}
-@media screen and (max-width: 796px) {
-    .uk-navbar-toggle {
-        display: flex;  /* Affiche le bouton du menu burger */
-    }
+    display: none;
+    /* Affiche le bouton du menu burger */
 }
 
+@media screen and (max-width: 796px) {
+    .uk-navbar-toggle {
+        display: flex;
+        /* Affiche le bouton du menu burger */
+    }
+}
