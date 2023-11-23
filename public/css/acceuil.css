@@ -1,6 +1,3 @@
-body {
-    background-color: #08693D;
-}
 
 h1 {
     display: flex;
@@ -16,7 +13,10 @@ h2 {
     padding-bottom: 2%;
     background-color: aqua;
 }
-
+ul{
+    padding-inline-start: 0px;
+    padding: 1rem;
+}
 .grand_prix {
     display: flex;
     justify-content: space-around;

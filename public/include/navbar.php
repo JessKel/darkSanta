@@ -15,7 +15,7 @@
         <div class="uk-container">
             <div uk-navbar>
                 <div class="uk-navbar-left">
-                    <a class="uk-navbar-item uk-logo" href="/" aria-label="darkSanta"><img class="img-logo" src="/images/darkSantalogo.png"></a>
+                    <a class="uk-navbar-item uk-logo" href="/acceuil.php" aria-label="darkSanta"><img class="img-logo" src="/images/darkSantalogo.png"></a>
                 </div>
                 <div class="uk-navbar-right">
                     <ul class="uk-navbar-nav my-nav uk-visible@m">
@@ -23,7 +23,7 @@
                                         <a href="https://perenoel.fi/">Site bizarre</a>
                                     </li>
                         <li>
-                            <a href="/">Visite</a>
+                            <a href="/visite.php">Visite</a>
                         </li>
                         <li>
                             <a href="/goddies.php">Goddies</a>
@@ -36,7 +36,7 @@
                     <div class="uk-navbar-dropdown uk-navbar-dropdown-bottom uk-hidden@m">
                         <ul class="uk-nav uk-navbar-dropdown-nav">
                         <li>
-                                        <a href="/">Visite</a>
+                                        <a href="/visite.php">Visite</a>
                                     </li>
                                     <li>
                                         <a href="https://perenoel.fi/">Site bizarre</a>
