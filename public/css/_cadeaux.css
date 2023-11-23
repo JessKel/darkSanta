@@ -57,7 +57,7 @@ input::file-selector-button {
 }
 
 /* Customize the label (the container) */
-.container {
+.lw-container {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -71,7 +71,7 @@ input::file-selector-button {
 }
 
 /* Hide the browser's default checkbox */
-.container input {
+.lw-container input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -80,7 +80,7 @@ input::file-selector-button {
 }
 
 /* Create a custom checkbox */
-.checkmark {
+.lw-checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -90,29 +90,29 @@ input::file-selector-button {
 }
 
 /* On mouse-over, add a grey background color */
-.container:hover input~.checkmark {
+.lw-container:hover input~.lw-checkmark {
     background-color: #ccc;
 }
 
 /* When the checkbox is checked, add a blue background */
-.container input:checked~.checkmark {
+.lw-container input:checked~.lw-checkmark {
     background-color: var(--vert);
 }
 
 /* Create the checkmark/indicator (hidden when not checked) */
-.checkmark:after {
+.lw-checkmark:after {
     content: "";
     position: absolute;
     display: none;
 }
 
 /* Show the checkmark when checked */
-.container input:checked~.checkmark:after {
+.lw-container input:checked~.lw-checkmark:after {
     display: block;
 }
 
 /* Style the checkmark/indicator */
-.container .checkmark:after {
+.lw-container .lw-checkmark:after {
     left: 9px;
     top: 5px;
     width: 5px;
