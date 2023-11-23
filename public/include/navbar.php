@@ -33,7 +33,7 @@
                             <a href="/goddies.php">Goddies</a>
                         </li>
                         <li>
-                            <a href="/">Vos listes de voeux</a>
+                            <a href="/cadeaux.php">Vos listes de voeux</a>
                         </li>
                     </ul>
                     <a class="uk-navbar-toggle uk-navbar-toggle-animate uk-hidden@m" uk-navbar-toggle-icon href="#"></a>
@@ -49,7 +49,7 @@
                                         <a href="/goddies.php">Goddies</a>
                                     </li>
                                     <li>
-                                        <a href="/">Vos listes de voeux</a>
+                                        <a href="/cadeaux.php">Vos listes de voeux</a>
                                     </li>
                         </ul>
                     </div>

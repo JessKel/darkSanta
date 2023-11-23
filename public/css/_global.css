@@ -1,5 +1,6 @@
 body {
     background-color: var(--vert);
+    
 }
 
 main * {
@@ -8,4 +9,12 @@ main * {
 
 h1 {
     font-family: var(--title-font);
+}
+
+footer {
+    margin-top: auto;
+}
+
+nav {
+    margin-bottom: auto;
 }

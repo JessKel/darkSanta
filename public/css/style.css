@@ -1,6 +1,8 @@
 @import url(_variables.css);
 @import url(_global.css);
 @import url(goddies.css);
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Roboto&display=swap');
+@import url(_cadeaux.css);
 @import url(navbar.css);
 @import url(footer.css);
 @import url(visite.css);
