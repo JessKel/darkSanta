@@ -15,7 +15,14 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
     <title>Envoi liste de cadeaux</title>
 </head>
 <body class="lw-body-cadeaux">
-
+<div class="cadeaux">
+    <?php
+    // Génération aléatoire de cadeaux
+    $nombreDeCadeaux = 10; // Nombre de cadeaux à afficher
+    for ($i = 0; $i < $nombreDeCadeaux; $i++) {
+        echo '<img src="images/cadeau.png" class="cadeau" style="left: '.rand(0, 95).'%; animation-delay: '.rand(0, 10).'s;">';
+    }
+    ?>
     <main>
         
         <h1 class="uk-heading-small uk-text-center h1-goddies lw-title-cadeaux"><span class="title-goddies">Envoies ta liste de cadeaux pour le Père Noël</span></h1>
@@ -57,7 +64,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST') {
         </div>
 
         
-
+        </div>
     </main>
 
 

@@ -171,3 +171,24 @@ input::file-selector-button {
     background-color: var(--vert);
     padding-bottom: 3rem;
 }
+/** Animation cadeaux **/
+.cadeaux {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .cadeau {
+    position: absolute;
+    width: 50px;
+    animation: chute 5s linear infinite;
+  }
+  
+  @keyframes chute {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(100vh);
+    }
+  }
