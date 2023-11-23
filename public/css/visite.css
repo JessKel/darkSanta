@@ -7,6 +7,8 @@ body {
     display: flex;
     justify-content: center;
     background-size: cover;
+    background-color: var(--vert);
+
 }
 
 .chat {
@@ -87,4 +89,5 @@ body {
     justify-content: center;
     padding-top: 2%;
     padding-bottom: 2%;
+    background-color: var(--vert);
 }

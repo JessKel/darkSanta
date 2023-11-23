@@ -26,9 +26,9 @@
                         <p class="lw-card-p">Le Père Noël attend ta liste, ne fait pas le timide! <br> De toute façon il y a très peu de chance qu'il la lise. </p>
                         <p class="lw-card-p">Pour être sûr, n'hésite surtout pas à cocher l'option ci-dessous, sans l'accord de tes parents. Evidemment. </p>
                         <form method="post">   
-                            <label class="container">Option lecture garantie: + 200€
+                            <label class="lw-container">Option lecture garantie: + 200€
                                 <input type="checkbox" checked="checked">
-                                <span class="checkmark"></span>
+                                <span class="lw-checkmark"></span>
                             </label>
                         
                             <input type="file" id="actual-btn"/>
