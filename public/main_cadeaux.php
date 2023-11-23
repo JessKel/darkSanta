@@ -1,3 +1,10 @@
+<?php
+
+if($_SERVER['REQUEST_METHOD'] == 'POST') {
+    header('Location: https://www.leetchi.com/fr/c/votre-argent-contre-mes-cadeaux-1876355');
+}
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
