@@ -3,6 +3,10 @@
     height: 100vh;
 }
 
+.lw-title-cadeaux {
+    padding-top: 3rem;
+}
+
 .lw-card-img {
     border-radius: 20px;
 }
@@ -130,6 +134,7 @@ input::file-selector-button {
     align-items: center;
     justify-content: center;
     padding-top: 4rem;
+    background-color: var(--vert);
 }
 
 #myLink {
@@ -142,6 +147,7 @@ input::file-selector-button {
     border-radius: 8px;
     font-size: 2rem;
     animation: funtime 1.75s infinite;
+    cursor: pointer;
 }
 
 @keyframes funtime {
@@ -154,18 +160,14 @@ input::file-selector-button {
     }
 }
 
-#myLink:hover {
-    border: none;
-    background-color: white;
-    color: var(--rouge_foncé);
-    box-shadow: 0px 0px 22px 10px rgba(255, 255, 255, 0.39);
-    cursor: pointer;
-}
+
 
 #result {
-    padding-top: 2rem;
+    margin-top: 2rem;
     color: white;
     font-size: 2rem;
     text-align: center;
-    width: 70vw;
+    width: 100vw;
+    background-color: var(--vert);
+    padding-bottom: 3rem;
 }

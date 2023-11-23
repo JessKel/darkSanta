@@ -1,0 +1,42 @@
+h2 {
+    font-family: var(--title-font) !important;
+    color: red !important;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: yellow;
+    animation: colorblink 2s infinite;
+}
+
+@keyframes colorblink {
+    0% {}
+
+    50% {
+        background-color: green;
+    }
+}
+
+ul {
+    padding-inline-start: 0px;
+    padding: 1rem;
+}
+
+.grand_prix {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.explication {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4%;
+    color: white;
+}
+
+.texte_barré {
+    text-decoration: line-through;
+    margin-left: 5px;
+    margin-right: 5px;
+}

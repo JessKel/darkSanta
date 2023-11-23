@@ -1,0 +1,48 @@
+nav .uk-container {
+    background-color: var(--rouge);
+    width: 100%;
+    max-width: 100vw;
+    padding: 0;
+}
+
+.uk-navbar {
+    padding-right: 1rem;
+}
+
+.uk-navbar-left {
+    width: 200px;
+}
+
+.img-logo {
+    width: 50%;
+    height: 50%;
+}
+
+.uk-navbar-nav.my-nav>li>a {
+    color: var(--blanc);
+}
+
+a.uk-navbar-toggle.uk-navbar-toggle-animate.uk-icon.uk-navbar-toggle-icon {
+    color: var(--blanc);
+}
+
+.uk-navbar-dropdown li a {
+    color: var(--noir);
+}
+
+.uk-navbar-toggle {
+    display: none;
+    /* Affiche le bouton du menu burger */
+}
+
+@media screen and (max-width: 796px) {
+    .uk-navbar-toggle {
+        display: flex;
+        /* Affiche le bouton du menu burger */
+    }
+
+    .img-logo {
+        width: 30%;
+        height: 30%;
+    }
+}

@@ -1,0 +1,90 @@
+body {
+    background-color: #08693D;
+}
+
+.carte {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+.chat {
+    opacity: 0;
+    position: absolute;
+    height: 10%;
+    width: auto;
+    margin-left: 67%;
+    margin-top: -38%;
+}
+
+.chat:hover {
+    transition: 3000ms;
+    opacity: 1;
+}
+
+.chat2 {
+    opacity: 0;
+    position: absolute;
+    height: 10%;
+    width: auto;
+    margin-left: 30%;
+    margin-top: -35%;
+}
+
+.chat2:hover {
+    transition: 3000ms;
+    opacity: 1;
+}
+
+.chat3 {
+    opacity: 0;
+    position: absolute;
+    height: 10%;
+    width: auto;
+    margin-left: 25%;
+    margin-top: -10%;
+}
+
+.chat3:hover {
+    transition: 3000ms;
+    opacity: 1;
+}
+
+.chat4 {
+    opacity: 0;
+    position: absolute;
+    height: 10%;
+    width: auto;
+    margin-left: 20%;
+    margin-top: -65%;
+}
+
+.chat4:hover {
+    transition: 3000ms;
+    opacity: 1;
+}
+
+.chat5 {
+    opacity: 0;
+    position: absolute;
+    height: 10%;
+    width: auto;
+    margin-left: 70%;
+    margin-top: -15%;
+}
+
+.chat5:hover {
+    transition: 3000ms;
+    opacity: 1;
+}
+
+.gain {
+    font-family: var(--title-font);
+    color: var(--blanc);
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
