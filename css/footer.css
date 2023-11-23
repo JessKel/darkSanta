@@ -1,0 +1,33 @@
+footer{
+    background-color: var(--background-color1);
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    margin-top: auto;
+}
+footer ul {
+    display: inline-flex;
+    align-items: center;
+    list-style: none;  /* Supprimez les puces de la liste */
+    margin: 0;
+    padding:0;
+}
+footer img{
+    width: 70px;
+    height: auto;
+}
+footer li {
+    margin-right: 1rem; 
+    display: flex; /* Assure que les éléments li sont disposés en ligne */
+    align-items: center; /* Centre les éléments verticalement */
+}
+footer a, footer p{
+    color: var(--light);
+    text-decoration: none;
+}
+footer p {
+    padding-left: 1rem;
+}
