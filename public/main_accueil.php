@@ -94,10 +94,10 @@
                 <a class="uk-position-center-right-out uk-position-small" href uk-slidenav-next
                     uk-slider-item="next"></a>
             </div>
-
+ 
         </div>
 
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin" id="points"></ul>
 
     </div>
     <h2>Super prix de la mort qui tue: balade en traineau avec le Père Noel!!!!</h2>

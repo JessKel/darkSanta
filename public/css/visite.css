@@ -16,6 +16,7 @@ body {
     width: auto;
     margin-left: 67%;
     margin-top: -38%;
+    border-radius: 10%;
 }
 
 .chat:hover {
@@ -30,6 +31,7 @@ body {
     width: auto;
     margin-left: 30%;
     margin-top: -35%;
+    border-radius: 10%;
 }
 
 .chat2:hover {

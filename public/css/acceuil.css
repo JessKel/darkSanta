@@ -46,3 +46,11 @@ ul {
     color: white;
     filter: grayscale(40%);
 }
+
+.points {
+    color: white !important;
+}
+
+.uk-dotnav {
+    color: white !important;
+}
