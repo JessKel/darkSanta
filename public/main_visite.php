@@ -29,5 +29,5 @@
             Réalisez avec succès le mini jeu afin de gagner un an de stage non rémunéré au sein des usines de jouets du Père Noel!!!
         </div>
 </body>
-
+<script type="text/javascript" src="https://click123.ca/dist/js/snow.js"></script>
 </html>

@@ -47,10 +47,7 @@ ul {
     filter: grayscale(40%);
 }
 
-.points {
-    color: white !important;
-}
-
-.uk-dotnav {
-    color: white !important;
+.swiper-img-lw {
+    border-radius: 15px;
+    max-height: 400px;
 }
